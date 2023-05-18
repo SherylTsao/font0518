@@ -3,8 +3,8 @@ $primary-light: white;
 
 .container {
      margin: 0 auto;
-    height: 1000px;
-    width: 1000px;
+     height: 1000px;
+     width: 1000px;
 
      .bg {
           background-color: $primary-color;
@@ -53,7 +53,7 @@ $primary-light: white;
           }
 
           .line-education {
-              margin: auto;
+               margin: auto;
                width: 970px;
           }
 
@@ -74,16 +74,47 @@ $primary-light: white;
                flex-direction: column;
                justify-content: center;
                align-items: center;
+
                .title-skill {}
 
                .line-skill {
-                    
+
                     width: 970px;
                }
 
                .content-skill {}
           }
 
+     }
+
+     .workex {
+
+          .title-work {
+               margin-left: 3%;
+          }
+
+          .line-work {}
+
+          .experi-1 {
+               
+               margin-bottom: 35px;
+               height: 200px;
+
+               .position-name-1 {
+                    .text-position-name {
+                         margin-left: -1%;
+                         font-size: 25px;
+                    }
+               }
+
+               .text-detail-1 {
+                    margin-left: 3%;
+               }
+
+               .text-content-1 {
+                    margin-left: 0.5%;
+               }
+          }
      }
 
 }

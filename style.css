@@ -52,4 +52,21 @@
 }
 .container .skill-area .bg-skill .line-skill {
   width: 970px;
+}
+.container .workex .title-work {
+  margin-left: 3%;
+}
+.container .workex .experi-1 {
+  margin-bottom: 35px;
+  height: 200px;
+}
+.container .workex .experi-1 .position-name-1 .text-position-name {
+  margin-left: -1%;
+  font-size: 25px;
+}
+.container .workex .experi-1 .text-detail-1 {
+  margin-left: 3%;
+}
+.container .workex .experi-1 .text-content-1 {
+  margin-left: 0.5%;
 }/*# sourceMappingURL=style.css.map */
