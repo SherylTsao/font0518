@@ -1,0 +1,55 @@
+.container {
+  margin: 0 auto;
+  height: 1000px;
+  width: 1000px;
+}
+.container .bg {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+}
+.container .bg .header img {
+  margin-top: 100px;
+}
+.container .bg .header .text-header h1 {
+  font-size: 35px;
+}
+.container .bg .header .text-header p {
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+.container .profile-area .title-profile {
+  margin-left: 3%;
+}
+.container .profile-area .line {
+  margin: auto;
+  width: 970px;
+}
+.container .profile-area .content-profile {
+  margin-left: 3%;
+}
+.container .education-area .title-education {
+  margin-left: 3%;
+}
+.container .education-area .line-education {
+  margin: auto;
+  width: 970px;
+}
+.container .education-area .content-education {
+  margin-left: 3%;
+}
+.container .skill-area {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+.container .skill-area .bg-skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .skill-area .bg-skill .line-skill {
+  width: 970px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,89 @@
+$primary-color: gray;
+$primary-light: white;
+
+.container {
+     margin: 0 auto;
+    height: 1000px;
+    width: 1000px;
+
+     .bg {
+          background-color: $primary-color;
+          display: flex;
+          justify-content: center;
+
+          .header {
+               img {
+                    margin-top: 100px;
+               }
+
+               .text-header {
+
+                    h1 {
+                         font-size: 35px;
+                    }
+
+                    p {
+                         font-size: 20px;
+                         margin-bottom: 60px;
+                    }
+
+               }
+          }
+     }
+
+     .profile-area {
+          .title-profile {
+               margin-left: 3%;
+          }
+
+          .line {
+               margin: auto;
+               width: 970px;
+          }
+
+          .content-profile {
+               margin-left: 3%;
+          }
+
+     }
+
+     .education-area {
+          .title-education {
+               margin-left: 3%;
+          }
+
+          .line-education {
+              margin: auto;
+               width: 970px;
+          }
+
+          .content-education {
+               margin-left: 3%;
+          }
+
+     }
+
+     .skill-area {
+          background-color: $primary-color;
+          display: flex;
+          justify-content: center;
+          height: 300px;
+
+          .bg-skill {
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+               .title-skill {}
+
+               .line-skill {
+                    
+                    width: 970px;
+               }
+
+               .content-skill {}
+          }
+
+     }
+
+}
